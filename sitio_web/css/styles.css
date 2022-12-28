@@ -1,0 +1,64 @@
+#header{
+background-color:#c69d55 ;
+border-bottom: #344d4c;
+}
+h1{
+    color: #344d4c;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: 'Libre Caslon Text', serif;
+    text-align:left;
+    margin-left: 250px;    
+   }
+h2{
+    color: #344d4c;
+    font-weight: lighter;
+    font-family: 'Libre Caslon Text', serif;
+
+}   
+
+.navbar{
+    background-color:#c69d55 ;
+    font-family: 'Open Sans', sans-serif;
+
+  
+}
+.nav-link:hover{
+    background: #344d4c;
+}
+.dropdown-item:hover{
+    background-color: #c69d55;
+    background: #344d4c;}
+    .dropdown-menu{
+        background-color: #c69d55;
+    }
+
+body{background-color: white;
+
+}
+main{
+    background-color: white;
+    
+    }
+#pieDePagina{
+        background-color:  #c69d55;
+        height: 150px;
+        font-family:'Open Sans', sans-serif;
+        border-top: #344d4c 4px solid ;
+    }
+.ol{
+    display: none;
+}
+.container{
+
+}
+#boton{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: #344d4c;
+
+}
+#formulario{
+    background-color:  #c69d55;
+    border-color: #344d4c;
+}
