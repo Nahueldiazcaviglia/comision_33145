@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Open+Sans:ital,wght@0,300;0,500;0,600;1,600&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../css/animate.css">>
     <title>Blanche Cosmetica Natural</title>
 </head>
 <body>
@@ -56,9 +56,9 @@
         <main>
             <div class="container">
 
-            <h2 class="row ml-3 mt-3 mb-5">DEJANOS TU MENSAJE</h2>
+            <h2 class="row ml-3 mt-3 mb-5 wow bounceInUp d-flex flex-column justify-content-center align-items-center">DEJANOS TU MENSAJE</h2>
 
-                <form class="row g-3 mt-5 mb-5 border border-5 rounded-5 border-dark" id="formulario">
+                <form class="row g-3 mt-5 mb-5 border border-5 rounded-5 border-dark wow bounceInDown d-flex flex-column justify-content-center align-items-center" id="formulario">
                     <div class="col-7">
                         <label for="nameImput" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nameImput">
@@ -88,12 +88,15 @@
 
         </main>
     
-
+        <script src="../scripts/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
     
 <footer class="container" id="pieDePagina">
-  <ol>
+  <ol style="list-style: none;">
       <a href="https://www.instagram.com/blanche.cosmetica.natural/" target="_blank"><li class="logoInstagram">
           <img src="../assets/imagenes/social_instagram_3.png" alt="logo de Instagram"></li></a>
       <a href="https://www.facebook.com/profile.php?id=100077798880033" target="_blank"><li class="logoFacebook">
